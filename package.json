@@ -1,0 +1,16 @@
+{
+  "name": "stylelint-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"stylelint": "stylelint --ignore-path .gitignore **/*.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0"
+  }
+}
